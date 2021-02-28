@@ -9,8 +9,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/start"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/start" />
 
     <TextView
         android:id="@+id/helperMessage"
@@ -22,9 +22,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="sans-serif-condensed-light"
         android:textColor="#F34D37"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/created_by_soumyajoy_das"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+        android:textColor="#C53B10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createBirthdayButton" />
 
     <EditText
         android:id="@+id/nameInput"
@@ -54,6 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:textAllCaps="false"
         android:padding="25dp"
+        android:backgroundTint="@color/teal_700"
         android:onClick="createBirthdayCard"
         app:layout_constraintTop_toBottomOf="@+id/nameInput" />
 </androidx.constraintlayout.widget.ConstraintLayout>
