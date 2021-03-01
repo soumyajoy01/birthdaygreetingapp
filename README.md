@@ -1,9 +1,9 @@
 # birthdaygreetingapp
-This is my first android application.
-The application is a birthday greeting card app.
+## This is my first android application.
+## The application is a birthday greeting card app.
 
 
-Steps to install the app in your mobile:
+# Steps to install the app in your mobile:
 1. Fork the repository.
 2. Copy the link of the code of this repository from your profile.
 3. Open Terminal and make a folder in your computer system and use the command git init inside the folder and press Enter and then git clone "Link of the code" and press Enter.
@@ -15,9 +15,9 @@ Steps to install the app in your mobile:
 8. The App will be installed in your mobile phone.
 
 
-How to Test the App after installation:
+# How to Test the App after installation:
 1. Open the app and write the name of a person in the hint box.
 2. Click on the button "Create Birthday Card". The app will generate a birthday card.
 
 
-Note: This is my first app and it has only one design in the card. You can modify the code to create different cards.
+### Note: This is my first app and it has only one design in the card. You can modify the code to create different cards.
