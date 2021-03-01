@@ -1,6 +1,6 @@
 # birthdaygreetingapp
-## This is my first android application.
-## The application is a birthday greeting card app.
+#### This is my first android application.
+#### The application is a birthday greeting card app.
 
 
 # Steps to install the app in your mobile:
